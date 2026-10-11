@@ -14,21 +14,21 @@ Registrovaní používatelia budú môcť pridávať vlastné recenzie, hodnoti�
 Návštevník je používateľ, ktorý nemá vytvorený účet alebo nie je prihlásený. Má prístup k verejne dostupnému obsahu aplikácie.
 
 Jeho oprávnenia zahŕňajú:
-    Prehliadanie katalógu kníh
-    Vyhľadávanie kníh podľa názvu alebo autora
-    Filtrovanie kníh podľa žánru
-    Zobrazovanie detailov kníh a publikovaných recenzií
-    Registráciu a prihlásenie do aplikácie
+- Prehliadanie katalógu kníh
+- Vyhľadávanie kníh podľa názvu alebo autora
+- Filtrovanie kníh podľa žánru
+- Zobrazovanie detailov kníh a publikovaných recenzií
+- Registráciu a prihlásenie do aplikácie
 
 ### 2. Registrovaný používateľ
 Registrovaný používateľ má vytvorený účet a je prihlásený do aplikácie. Okrem všetkých funkcií dostupných návštevníkovi môže spravovať vlastný používateľský obsah.
 
 Jeho oprávnenia zahŕňajú:
-    Pridávanie recenzií a hodnotení ku knihám
-    Úpravu a mazanie vlastných recenzií
-    Pridávanie kníh do osobného zoznamu na prečítanie a ich odstraňovanie z tohto zoznamu
-    Prehliadanie a správu vlastných recenzií a uložených kníh
-    Úpravu základných údajov svojho používateľského účtu
+- Pridávanie recenzií a hodnotení ku knihám
+- Úpravu a mazanie vlastných recenzií
+- Pridávanie kníh do osobného zoznamu na prečítanie a ich odstraňovanie z tohto zoznamu
+- Prehliadanie a správu vlastných recenzií a uložených kníh
+- Úpravu základných údajov svojho používateľského účtu
 
 Každý používateľ môže upravovať a mazať iba vlastné recenzie a spravovať iba svoj osobný zoznam kníh.
 
@@ -36,52 +36,52 @@ Každý používateľ môže upravovať a mazať iba vlastné recenzie a spravov
 Administrátor zodpovedá za správu obsahu aplikácie a dohľad nad jej používaním.
 
 Jeho oprávnenia zahŕňajú:
-    Pridávanie, zobrazovanie, úpravu a mazanie kníh.
-    Správu autorov a žánrov.
-    Odstraňovanie nevhodných recenzií.
-    Správu používateľských účtov vrátane deaktivácie účtu.
-    Zobrazovanie základných štatistík aplikácie.
+- Pridávanie, zobrazovanie, úpravu a mazanie kníh.
+- Správu autorov a žánrov.
+- Odstraňovanie nevhodných recenzií.
+- Správu používateľských účtov vrátane deaktivácie účtu.
+- Zobrazovanie základných štatistík aplikácie.
 
 Administrátor má prístup k administračnej časti aplikácie, ktorá je dostupná iba po prihlásení používateľa s príslušnými oprávneniami.
 
 ## Prípady použitia podľa rolí
 ### Návštevník
-Zobrazí zoznam dostupných kníh
-Vyhľadá knihu podľa názvu alebo autora
-Vyfiltruje knihy podľa žánru
-Zobrazí detail vybranej knihy
-Prečíta si recenzie a hodnotenia ostatných používateľov
-Vytvorí si používateľský účet alebo sa prihlási
+- Zobrazí zoznam dostupných kníh
+- Vyhľadá knihu podľa názvu alebo autora
+- Vyfiltruje knihy podľa žánru
+- Zobrazí detail vybranej knihy
+- Prečíta si recenzie a hodnotenia ostatných používateľov
+- Vytvorí si používateľský účet alebo sa prihlási
 
 ### Registrovaný používateľ
-Vytvorí a upraví vlastnú recenziu knihy
-Ohodnotí knihu na stupnici od 1 do 10
-Odstráni svoju recenziu
-Pridá knihu do osobného zoznamu na prečítanie
-Odstráni knihu zo svojho zoznamu
-Zobrazí si vlastné recenzie a uložené knihy
-Upraví údaje svojho účtu a odhlási sa z aplikácie
+- Vytvorí a upraví vlastnú recenziu knihy
+- Ohodnotí knihu na stupnici od 1 do 10
+- Odstráni svoju recenziu
+- Pridá knihu do osobného zoznamu na prečítanie
+- Odstráni knihu zo svojho zoznamu
+- Zobrazí si vlastné recenzie a uložené knihy
+- Upraví údaje svojho účtu a odhlási sa z aplikácie
 
 ### Administrátor
-Pridá novú knihu do katalógu
-Upraví alebo odstráni existujúcu knihu
-Spravuje autorov a žánre
-Zobrazí zoznam používateľských recenzií a odstráni nevhodný obsah
-Zobrazí zoznam používateľov a spravuje ich účty
-Zobrazí základné štatistiky, napríklad počet kníh, používateľov a recenzií
+- Pridá novú knihu do katalógu
+- Upraví alebo odstráni existujúcu knihu
+- Spravuje autorov a žánre
+- Zobrazí zoznam používateľských recenzií a odstráni nevhodný obsah
+- Zobrazí zoznam používateľov a spravuje ich účty
+- Zobrazí základné štatistiky, napríklad počet kníh, používateľov a recenzií
 
 ## Plánované entity
 ### 1. Kniha (Book)
 Predstavuje knihu evidovanú v katalógu aplikácie.
 
 Hlavné atribúty:
-    ID knihy
-    Názov
-    ID autora
-    ID žánru
-    Rok vydania
-    Stručný opis
-    Cesta k obrázku obálky
+- ID knihy
+- Názov
+- ID autora
+- ID žánru
+- Rok vydania
+- Stručný opis
+- Cesta k obrázku obálky
 
 Každá kniha patrí jednému autorovi a jednému žánru. Kniha môže mať viacero používateľských recenzií a môže byť uložená v zoznamoch na prečítanie viacerých používateľov.
 
@@ -89,9 +89,9 @@ Každá kniha patrí jednému autorovi a jednému žánru. Kniha môže mať via
 Predstavuje autora jednej alebo viacerých kníh.
 
 Hlavné atribúty:
-    ID autora
-    Meno a priezvisko
-    Stručný životopis
+- ID autora
+- Meno a priezvisko
+- Stručný životopis
 
 Jeden autor môže mať v katalógu evidovaných viacero kníh.
 
@@ -99,9 +99,9 @@ Jeden autor môže mať v katalógu evidovaných viacero kníh.
 Slúži na kategorizáciu kníh podľa ich literárneho zamerania.
 
 Hlavné atribúty:
-    ID žánru
-    Názov žánru
-    Stručný opis
+- ID žánru
+- Názov žánru
+- Stručný opis
 
 Jeden žáner môže byť priradený viacerým knihám. Žánre bude spravovať administrátor.
 
@@ -109,13 +109,13 @@ Jeden žáner môže byť priradený viacerým knihám. Žánre bude spravovať 
 Predstavuje používateľské hodnotenie a textovú recenziu konkrétnej knihy.
 
 Hlavné atribúty:
-    ID recenzie
-    ID knihy
-    ID používateľa
-    Číselné hodnotenie od 1 do 10
-    Text recenzie
-    Dátum vytvorenia
-    Dátum poslednej úpravy
+- ID recenzie
+- ID knihy
+- ID používateľa
+- Číselné hodnotenie od 1 do 10
+- Text recenzie
+- Dátum vytvorenia
+- Dátum poslednej úpravy
 
 Každá recenzia patrí jednej knihe a jednému používateľovi. Jeden používateľ môže vytvoriť recenzie viacerých kníh, pričom na jednu knihu môže mať najviac jednu recenziu.
 
@@ -123,10 +123,10 @@ Každá recenzia patrí jednej knihe a jednému používateľovi. Jeden použív
 Predstavuje knihu uloženú v osobnom zozname používateľa.
 
 Hlavné atribúty:
-    ID položky
-    ID používateľa
-    ID knihy
-    Dátum pridania
+- ID položky
+- ID používateľa
+- ID knihy
+- Dátum pridania
 
 Táto entita umožňuje používateľom vytvárať si vlastné zoznamy kníh, ktoré si plánujú prečítať. Rovnaká kniha môže byť uložená v zoznamoch viacerých používateľov.
 
@@ -134,10 +134,10 @@ Táto entita umožňuje používateľom vytvárať si vlastné zoznamy kníh, kt
 Aplikácia bude obsahovať aj používateľskú entitu zabezpečujúcu prihlasovanie a autorizáciu. 
 
 Hlavné atribúty:
-    ID používateľa
-    používateľské meno
-    zahashované heslo
-    rola používateľa
+- ID používateľa
+- Používateľské meno
+- Zahashované heslo
+- Rola používateľa
 
 ## Vzťahy medzi entitami
 **Autor – Kniha (1):** Jeden autor môže mať viacero kníh, pričom každá kniha má v základnej verzii jedného autora.
