@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Katalóg kníh Booklist – vyhľadávanie, žánre a hodnotenia.">
+  <title>Booklist – Katalóg kníh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a href="index.html" class="brand" aria-label="Booklist – domov"><span class="brand-icon" aria-hidden="true">▣</span> Booklist</a>
+      <nav class="main-nav" aria-label="Hlavná navigácia">
+        <a href="index.html">Domov</a>
+        <a href="katalog.html" aria-current="page">Katalóg kníh</a>
+        <span class="nav-placeholder">Moja knižnica</span>
+      </nav>
+      <div class="account-nav"><span>Prihlásenie</span><span class="register-placeholder">Registrácia</span></div>
+    </header>
+
+    <main>
+      <h1>Katalóg kníh</h1>
+      <p class="lead">Nájdite svoju ďalšiu obľúbenú knihu.</p>
+      <section class="filter-panel" aria-labelledby="filters-heading">
+        <h2 id="filters-heading">Vyhľadávanie a filtre</h2>
+        <form action="#" method="get" role="search">
+          <label class="visually-hidden" for="search">Hľadať podľa názvu alebo autora</label>
+          <input id="search" name="q" type="search" placeholder="Hľadať podľa názvu alebo autora...">
+          <div class="filter-grid">
+            <div class="field"><label for="genre">Žáner</label><select id="genre" name="genre"><option>Všetky žánre</option><option>Fantasy</option><option>Detektívka</option><option>Sci-fi</option></select></div>
+            <div class="field"><label for="sort">Zoradenie</label><select id="sort" name="sort"><option>Názov A–Z</option><option>Názov Z–A</option><option>Rok vydania</option><option>Hodnotenie</option></select></div>
+          </div>
+          <button class="search-button" type="button">Hľadať</button>
+        </form>
+      </section>
+
+      <section class="results" aria-labelledby="results-heading">
+        <div class="results-heading"><h2 id="results-heading">Výsledky vyhľadávania</h2><span>Nájdené knihy: 24</span></div>
+        <div class="book-list">
+          <article class="book-card">
+            <div class="cover-placeholder" role="img" aria-label="Zástupné miesto pre obálku knihy Pán prsteňov"><span aria-hidden="true">▤</span><small>Obálka</small></div>
+            <div class="book-info"><h3>Pán prsteňov</h3><p class="author">J. R. R. Tolkien</p><div class="book-meta"><span class="genre-tag">Fantasy</span><span>1954</span></div><p class="rating"><span aria-hidden="true">☆</span> Hodnotenie: 9,4/10</p><span class="detail-placeholder">Detail knihy →</span></div>
+          </article>
+          <article class="book-card">
+            <div class="cover-placeholder" role="img" aria-label="Zástupné miesto pre obálku knihy Vražda v Orient exprese"><span aria-hidden="true">▤</span><small>Obálka</small></div>
+            <div class="book-info"><h3>Vražda v Orient exprese</h3><p class="author">Agatha Christie</p><div class="book-meta"><span class="genre-tag">Detektívka</span><span>1934</span></div><p class="rating"><span aria-hidden="true">☆</span> Hodnotenie: 8,7/10</p><span class="detail-placeholder">Detail knihy →</span></div>
+          </article>
+          <article class="book-card">
+            <div class="cover-placeholder" role="img" aria-label="Zástupné miesto pre obálku knihy Duna"><span aria-hidden="true">▤</span><small>Obálka</small></div>
+            <div class="book-info"><h3>Duna</h3><p class="author">Frank Herbert</p><div class="book-meta"><span class="genre-tag">Sci-fi</span><span>1965</span></div><p class="rating"><span aria-hidden="true">☆</span> Hodnotenie: 9,1/10</p><span class="detail-placeholder">Detail knihy →</span></div>
+          </article>
+        </div>
+        <nav class="pagination" aria-label="Stránkovanie výsledkov"><span class="muted">‹ Predchádzajúca</span><span class="current-page" aria-current="page">1</span><span>2</span><span>3</span><span>Ďalšia ›</span></nav>
+      </section>
+    </main>
+    <footer class="site-footer"><small>Booklist – Katalóg kníh</small></footer>
+  </div>
+</body>
+</html>
